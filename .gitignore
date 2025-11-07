@@ -1,0 +1,34 @@
+# Archivos de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Archivos de IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de log
+*.log
+
+# No ignorar archivos .pkl (modelos necesarios)
+!*.pkl
+
+# No ignorar archivos de datos
+!*.xlsx
+
+# Archivos temporales de uploads
+uploads/*
+!uploads/.gitkeep
